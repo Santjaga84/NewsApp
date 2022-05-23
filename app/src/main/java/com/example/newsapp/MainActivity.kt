@@ -31,3 +31,5 @@ class MainActivity : AppCompatActivity() {
         binding = null
     }
 }
+
+//04bdb758d3a94087982381fcfa0372ea
