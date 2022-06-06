@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.Main).launch {
             delay(5000)
             binding = ActivityMainBinding.inflate(layoutInflater)
+
+            //Запускаеться Splash экран и потом появляеться основной экран
             setContentView(mBinding.root)
             bottom_nav_menu.setupWithNavController(
                 navController = nav_host_fragment.findNavController()

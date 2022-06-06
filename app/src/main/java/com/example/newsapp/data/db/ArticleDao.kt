@@ -7,7 +7,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.newsapp.models.Article
 
-
+//Интерфейс получает,вставляет или удаляет статью
 interface ArticleDao {
     @Query("SELECT * FROM articles")
     suspend fun getAllArticles(): LiveData<List<Article>>
