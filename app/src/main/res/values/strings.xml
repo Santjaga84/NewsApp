@@ -2,5 +2,9 @@
     <string name="app_name">News App</string>
     <string name="popular_news">Popular News</string>
     <string name="search">Search</string>
+    <string name="musk">Musk invited to UK Parliament to discuss $44 billion Twitter buyout</string>
+    <string name="description">Description</string>
+    <string name="recently">Recently,Twitter announced that it has entered</string>
+    <string name="visit_side">Visit_side</string>
 
 </resources>
