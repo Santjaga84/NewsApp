@@ -14,13 +14,13 @@ interface NewsService {
     suspend fun getEverything(
         @Query("q") query: String,
         @Query("page") page: Int = 1,
-        @Query("apiKey") apiKet: String = API_KEY
+        @Query("apiKey") apiKey: String = API_KEY
     ) : Response<NewsResponse>
 
     @GET("/v2/top-headlines")
     suspend fun getHeadLines(
       @Query("country") countryCode: String = "ru",
       @Query("page") page: Int = 1,
-      @Query("apiKey") apiKet: String = API_KEY
+      @Query("apiKey") apiKey: String = API_KEY
     ) : Response<NewsResponse>
 }
